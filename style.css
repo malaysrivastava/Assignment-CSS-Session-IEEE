@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+    padding: 0%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #137adb);
+}
+
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:50px; line-height:50px;
+    background:#137adb; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+ul.nav li {
+    border-right:1px solid #189b80; /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#ccece6;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#787879;
+}
+
+.logo{
+    position: absolute;
+    right: 60px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+}
+.logo:hover{
+    background-color: #137adb!important;
+}
+
+.dropdown{
+    background-color: #137adb;
+    width: 130px;
+}
+
+.drop{
+    display: none;
+}
+
+.dropdown:hover
+.drop{
+   display: block;
+}
+
+.task{
+    margin:30px auto;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+}
+
+table{
+    margin:auto;
+    border: 2px solid grey;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+h2{
+    float: center;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+      width: 10%;
+      text-align: center;
+
+      font-size: 30px;
+      font-weight: 400;
+      box-shadow: 3px 3px 3px 3px rgb(98, 98, 238);
+
+}
+
+td:hover{
+    position: relative;
+    top: 3px;
+    background-color: blanchedalmond;
+    color: cadetblue;
+    cursor: pointer;
+}
+
+td:active{
+    background-color: darkblue;
+    color: wheat;
+    position: relative;
+    bottom: 6px;
+}
+
+.container{
+    width: 700;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+}
+
+.image{
+    width: 270px;
+    margin: 4px auto;
+    float: right;
+    border-radius: 15px;
+}
+
+p{
+    height: 70px;
+    margin:30px;
+    overflow: scroll;
+}
